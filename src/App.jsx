@@ -41,7 +41,7 @@ function App() {
       <div className="panel">
         <p>{second}</p>
         <div className="numbers">
-        <button onClick={() => setFirst(1)}>1</button>
+          <button onClick={() => setSecond(1)}>1</button>
           <button onClick={() => setSecond(2)}>2</button>
           <button onClick={() => setSecond(3)}>3</button>
           <button onClick={() => setSecond(4)}>4</button>
